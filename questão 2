@@ -1,0 +1,9 @@
+def contar_letra_a(texto):
+    texto = texto.lower()
+    quantidade = texto.count('a')
+    return quantidade
+
+texto = input("Digite uma string para verificar a quantidade de letras 'a': ")
+
+quantidade_a = contar_letra_a(texto)
+print(f"A letra 'a' ocorre {quantidade_a} vez(es) na string fornecida.")
